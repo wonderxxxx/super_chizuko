@@ -10,7 +10,8 @@ if not os.path.abspath(os.path.join(os.path.dirname(__file__), 'emotion_state_se
     sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'emotion_state_serv')))
 
 from config import Config
-from memory_manager import MemoryManager
+# from memory_manager import MemoryManager
+from memory_manager_wrapper import MemoryManager
 from ai_manager import AIManager
 from prompt_generator import PromptGenerator
 from chat_service import ChatService

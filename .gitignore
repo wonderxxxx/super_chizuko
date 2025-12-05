@@ -1,0 +1,40 @@
+# Python编译缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE配置
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 模型文件
+backend/models/
+
+# Chroma数据库文件
+backend/chroma_db/
+
+# SQLite数据库文件
+backend/data.db
+
+# 环境文件
+.env
+.env.local
+.env.*.local
+
+# 日志文件
+*.log
+logs/
+
+# 安装包
+*.egg-info/
+dist/
+build/
+
+# 临时文件
+*.tmp
+*.temp
+.cache/

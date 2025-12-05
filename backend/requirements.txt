@@ -1,0 +1,8 @@
+ollama
+flask
+waitress
+requests
+chromadb
+sentence-transformers
+transformers
+numpy
